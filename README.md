@@ -1,15 +1,25 @@
-# Mumble2
-A real time messaging & video calling. Youtube tutorial will be upload in the comming days.
+# Mumble - Real-Time Video and Chat Application
 
-Live Demo: https://www.mumble2.dev/
+![Mumble Logo](./images/logo.png)
 
-# Installation
-* 1 - clone repo https://github.com/divanov11/mumble2
-* 2 - Create an account on agora.io and create an app to generate an APP ID
-* 3 - Update APP ID, Temp Token and Channel Name in room_rtc.js
-```javascript
-let APP_ID = "YOU-APP-ID"
-```
+Mumble is a real-time video conferencing and chat application powered by **Agora RTC & RTM SDKs**. It allows users to create or join rooms, engage in live video/audio calls, and communicate via text chat.
 
+## 🚀 Features
 
-<img src="./images/preview.png">  
+- ✅ **Create & Join Rooms** – Generate or join rooms via a unique invite code.
+- ✅ **Live Video & Audio** – High-quality real-time communication.
+- ✅ **Integrated Chat** – Send and receive messages within the room.
+- ✅ **Participant List** – See who is in the room.
+- ✅ **Screen Sharing** – Share your screen with others.
+- ✅ **Mic & Camera Controls** – Easily toggle your microphone and camera.
+- ✅ **Responsive Design** – Works on desktops and mobile devices.
+
+---
+
+## 📌 Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Real-Time Communication:** [Agora RTC SDK](https://www.agora.io/en/)
+- **Messaging & User Presence:** Agora RTM SDK
+
+---
